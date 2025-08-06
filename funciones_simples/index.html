@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Primeros Pasos JS</title>
+</head>
+
+<body>
+    <div class="change_text">
+        <h1>Dale al botón</h1>
+        <button id="btn1" onclick="cambiarText()">Cambiar</button>
+    </div>
+    
+    <div>
+        <button id="btnfondo" onclick="cambiarFondo()">Cambiar Fondo</button>
+    </div>
+
+    <div class="saludo">
+        <input id="nombre" placeholder="Escribe tu nombre">
+        <button onclick="saludar()">Saludar</button>
+        <p id="saludo"></p>
+    </div>
+
+    <div class="contador">
+        <p id="contador">0</p>
+        <button onclick="sumar()">Sumar 1</button>
+    </div>
+
+    <div class="game_text">
+        <p id="texto">Este es un texto que puedes ocultar.</p>
+        <button onclick="toggleTexto()">Mostrar / Ocultar</button>
+    </div>
+
+    <div id="change" class="change_color">
+        <button onclick="cambiarColor()">Cambiar color</button>
+    </div>
+
+    <div class="contador_r">
+        <p id="cuenta">10</p>
+        <button onclick="restar()">Restar</button>
+    </div>
+
+
+    <div class="size_text">
+        <p id="texto">Texto ajustable</p>
+        <button onclick="cambiarTamaño()">Cambiar tamaño</button>
+    </div>
+
+
+    <div class="change_img">
+        <img id="imagen" src="imagenes/gijon.jpg" width="200">
+        <button onclick="cambiarImagen()">Cambiar imagen</button>
+    </div>
+
+    <div class="doble_calc">
+        <input id="numero" type="number">
+        <button onclick="doblar()">Doblar</button>
+        <p id="resultado"></p>
+    </div>
+
+    <div class="button_hide">
+        <button id="btn" onclick="desaparecer()">Hazme desaparecer</button>
+        <p id="mensaje"></p>
+    </div>
+
+    <div class="mensaje">
+        <button onclick="mensajeAleatorio()">Dame un mensaje</button>
+        <p id="mensaje"></p>
+    </div>
+
+</body>
+
+</html>

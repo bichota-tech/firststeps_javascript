@@ -1,0 +1,56 @@
+/* Estilos generales para modo claro */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    text-align: center;
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
+  header {
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header img {
+    width: 40px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  header img:hover {
+    transform: scale(1.1);
+  }
+  
+  main {
+    padding: 40px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #cfd8dc;
+    padding: 20px;
+  }
+  
+  /* Estilos para modo oscuro (se aplican cuando el body tiene la clase) */
+  body.modo-oscuro {
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+  
+  body.modo-oscuro header {
+    background-color: #263238;
+  }
+  
+  body.modo-oscuro footer {
+    background-color: #37474f;
+  }
+  
